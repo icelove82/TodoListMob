@@ -2,5 +2,5 @@ package com.example.todolistmob
 
 data class Todo(
     val title: String,
-    val isChecked: Boolean = false // default value
+    var isChecked: Boolean = false // default value
 )
